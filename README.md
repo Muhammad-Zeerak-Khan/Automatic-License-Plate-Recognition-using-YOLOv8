@@ -23,16 +23,16 @@ The sort module needs to be downloaded from [this repository](https://github.com
 
 ## Project Setup
 
-* Make an environment with python=3.8 using the following command -
+* Make an environment with python=3.8 using the following command 
 ``` bash
 conda create --prefix ./env python==3.8 -y
 ```
 
-* Install the project dependencies using the following command -
+* Install the project dependencies using the following command 
 ```bash
 pip install -r requirements.txt
 ```
-* Run main.py with the sample video file to generate the test.csv file -
+* Run main.py with the sample video file to generate the test.csv file 
 ``` python
 python main.py
 ```
