@@ -1,4 +1,4 @@
-# Automatic-number-plate-recognition-python-yolov8
+# Automatic-Number-Plate-Recognition-YOLOv8
 ## Demo
 
 
