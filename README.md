@@ -20,3 +20,9 @@ A licensed plate detector was used to detect license plates. The model was train
 ## Dependencies
 
 The sort module needs to be downloaded from [this repository](https://github.com/abewley/sort).
+
+## Project Setup
+Make an environment with python=3.8 using the following
+'''
+conda create --prefix ./evn python==3.8 -y
+'''
