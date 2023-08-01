@@ -23,6 +23,6 @@ The sort module needs to be downloaded from [this repository](https://github.com
 
 ## Project Setup
 Make an environment with python=3.8 using the following
-'''python
+''' python
 conda create --prefix ./env python==3.8 -y
 '''
