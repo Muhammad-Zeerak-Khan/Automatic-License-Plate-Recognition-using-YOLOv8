@@ -27,6 +27,10 @@ The sort module needs to be downloaded from [this repository](https://github.com
 ``` bash
 conda create --prefix ./env python==3.8 -y
 ```
+* Activate the environment
+``` bash
+conda activate ./env
+``` 
 
 * Install the project dependencies using the following command 
 ```bash
