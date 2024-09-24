@@ -46,7 +46,8 @@ cd sort
 ```
 Upgrade setuptools and wheel
 ```commandline
-pip install --upgrade setuptools wheel
+pip install setuptools==75.1.0 
+pip install wheel==0.44.
 ```
 Install the requirements of sort
 ```
