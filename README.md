@@ -36,6 +36,29 @@ conda activate ./env
 ```bash
 pip install -r requirements.txt
 ```
+Clone the SORT repository
+```commandline
+git clone https://github.com/abewley/sort.git
+```
+Install SORT: Navigate to the cloned sort folder:
+```commandline
+cd sort
+```
+Upgrade setuptools and wheel
+```commandline
+pip install --upgrade setuptools wheel
+
+Install the requirements of sort
+
+```
+pip install -r requirements.txt
+```
+Verify the installation: Try importing the sort module in a Python shell:
+```commandline
+python
+>>> from sort.sort import Sort
+```
+
 * Run main.py with the sample video file to generate the test.csv file 
 ``` python
 python main.py
