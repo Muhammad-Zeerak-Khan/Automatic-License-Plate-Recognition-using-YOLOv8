@@ -47,13 +47,13 @@ cd sort
 Upgrade setuptools and wheel
 ```commandline
 pip install --upgrade setuptools wheel
-
+```
 Install the requirements of sort
-
 ```
 pip install -r requirements.txt
 ```
 Verify the installation: Try importing the sort module in a Python shell:
+
 ```commandline
 python
 >>> from sort.sort import Sort
