@@ -8,7 +8,7 @@ https://github.com/Muhammad-Zeerak-Khan/Automatic-License-Plate-Recognition-usin
 
 ## Data
 
-The video I used in this tutorial can be downloaded [here](https://drive.google.com/file/d/1JbwLyqpFCXmftaJY1oap8Sa6KfjoWJta/view?usp=sharing).
+The video used in the tutorial can be downloaded [here](https://drive.google.com/file/d/1JbwLyqpFCXmftaJY1oap8Sa6KfjoWJta/view?usp=sharing).
 
 ## Model
 
@@ -21,15 +21,19 @@ A licensed plate detector was used to detect license plates. The model was train
 
 The sort module needs to be downloaded from [this repository](https://github.com/abewley/sort).
 
+```bash
+git clone https://github.com/abewley/sort
+```
+
 ## Project Setup
 
-* Make an environment with python=3.8 using the following command 
+* Make an environment with python=3.10 using the following command 
 ``` bash
-conda create --prefix ./env python==3.8 -y
+conda create --prefix ./env python==3.10 -y
 ```
 * Activate the environment
 ``` bash
-conda activate ./env
+source activate ./env
 ``` 
 
 * Install the project dependencies using the following command 
